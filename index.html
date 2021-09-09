@@ -6,22 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is Triangle?</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
     <nav>
-        <a href="index.html">Is Triangle?</a>
+        <a href="index.html" class="active">Is Triangle?</a>
         <a href="trianglequiz.html">Triangle Quiz</a>
         <a href="hypotenuse.html">Hypotenuse</a>
+        <a href="areaoftriangle.html">Area Of Triangle</a>
     </nav>
-    <label for="angle1">Angle1:</label>
-    <input type="number" class="angle" />
-    <label for="angle2">Angle1:</label>
-    <input type="number" class="angle" />
-    <label for="angle2">Angle2:</label>
-    <input type="number" class="angle" />
-    <button id="btn-check">Check</button>
-    <div id="output"></div>
+    <div class="container">
+        <label for="angle1">Angle1:</label>
+        <input type="number" class="angle" />
+        <label for="angle2">Angle1:</label>
+        <input type="number" class="angle" />
+        <label for="angle2">Angle2:</label>
+        <input type="number" class="angle" />
+        <button id="btn-check">Check</button>
+        <div id="output"></div>
+    </div>
     <script src="istriangle.js"></script>
 </body>
 
